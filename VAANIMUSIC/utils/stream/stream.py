@@ -3,14 +3,14 @@ from random import randint
 from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 import config
-from SHUKLAMUSIC import Carbon, YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.database import add_active_video_chat, is_active_chat
-from SHUKLAMUSIC.utils.exceptions import AssistantErr
-from SHUKLAMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from SHUKLAMUSIC.utils.pastebin import SHUKLABin
-from SHUKLAMUSIC.utils.stream.queue import put_queue, put_queue_index
+from VAANIMUSIC import Carbon, YouTube, app
+from VAANIMUSIC.core.call import VAANI 
+from VAANIMUSIC.misc import db
+from VAANIMUSIC.utils.database import add_active_video_chat, is_active_chat
+from VAANIMUSIC.utils.exceptions import AssistantErr
+from VAANIMUSIC.utils.inline import aq_markup, close_markup, stream_markup
+from VAANIMUSIC.utils.pastebin import VAANIBin
+from VAANIMUSIC.utils.stream.queue import put_queue, put_queue_index
 
 
 async def stream(
@@ -30,7 +30,7 @@ async def stream(
         return
 
     if forceplay:
-        await SHUKLA.force_stop_stream(chat_id)
+        await VAANI.force_stop_stream(chat_id)
 
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
@@ -84,7 +84,7 @@ async def stream(
                 except Exception:
                     raise AssistantErr(_["play_14"])
 
-                await SHUKLA.join_call(
+                await VAANI.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -251,7 +251,7 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
 
-            await SHUKLA.join_call(
+            await VAANI.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -322,7 +322,7 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
 
-            await SHUKLA.join_call(
+            await VAANI.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
