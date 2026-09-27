@@ -1,36 +1,35 @@
-# ----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# -----------------------------------------------
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 import random
 from typing import Union
 from pyrogram import filters, types, enums
 from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils import help_pannel
-from SHUKLAMUSIC.utils.database import get_lang
-from SHUKLAMUSIC.utils.decorators.language import LanguageStart, languageCB
-from SHUKLAMUSIC.utils.inline.help import help_back_markup, private_help_panel
-from SHUKLAMUSIC.utils.inline.start import start_panel
+from VAANIMUSIC import app
+from VAANIMUSIC.utils import help_pannel
+from VAANIMUSIC.utils.database import get_lang
+from VAANIMUSIC.utils.decorators.language import LanguageStart, languageCB
+from VAANIMUSIC.utils.inline.help import help_back_markup, private_help_panel
+from VAANIMUSIC.utils.inline.start import start_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from SHUKLAMUSIC.utils.stuffs.buttons import BUTTONS
-from SHUKLAMUSIC.utils.stuffs.helper import Helper
+from VAANIMUSIC.utils.stuffs.buttons import BUTTONS
+from VAANIMUSIC.utils.stuffs.helper import Helper
 
 # 🖼️ Code ke andar hi SHASHANK_IMG ki list bana di gayi hai
 SHASHANK_IMG = [
-    "https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
-    "https://ibb.co/m5nxv7jw.jpg",
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
 ]
 
 
@@ -86,7 +85,7 @@ async def Settingsback_helper(client, CallbackQuery):
     )
 
     # 2. Welcome Buttons
-    from SHUKLAMUSIC.utils.inline.start import start_panel
+    from VAANIMUSIC.utils.inline.start import start_panel
     keyboard = start_panel(_)
 
     # 3. Photo Media edit karna (jisse Photo + Caption + Buttons sab wapas aa jaye)
