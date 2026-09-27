@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.enums import ButtonStyle
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import get_lang, set_lang
-from SHUKLAMUSIC.utils.decorators import ActualAdminCB, language, languageCB
+from VAANIMUSIC import app
+from VAANIMUSIC.utils.database import get_lang, set_lang
+from VAANIMUSIC.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
