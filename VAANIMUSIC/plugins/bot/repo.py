@@ -22,14 +22,14 @@ def e(eid, fb):
     return f'<emoji id={eid}>{fb}</emoji>'
 
 start_txt = (
-    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b>𝐀ʟɪsᴀ ᴍᴜsɪᴄ | ᴍᴀᴅᴀʀᴀ</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
+    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b> | ᴍᴀᴅᴀʀᴀ</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
     f"{e(_E_SPARK,'✨')} ʙᴀᴅᴀ ᴀᴀʏᴀ ʙᴏᴛ ᴋᴀ ʀᴇᴘᴏ ᴅᴇᴋʜɴᴇ,\n"
     f"{e(_E_LOVE,'💗')} ᴘᴀʜʟᴇ ᴀᴘɴɪ ʟɪɢᴇ ᴋᴀ ʀᴇᴘᴏ sᴜᴅʜᴀʀ ᴊᴀᴀᴋᴇ !\n\n"
     f"<pre>||{e(_E_RIGHT,'➡️')} ᴜᴩᴛɪᴍᴇ       :  𝟷ʜ:𝟹𝟺ᴍ:𝟻𝟺s\n"
     f"{e(_E_RIGHT,'➡️')} sᴛᴏʀᴀɢᴇ      :  𝟸𝟽.𝟺%\n"
     f"{e(_E_RIGHT,'➡️')} ᴄᴩᴜ ʟᴏᴀᴅ    :  𝟷𝟷.𝟸%\n"
     f"{e(_E_RIGHT,'➡️')} ʀᴀᴍ ᴜsᴇ     :  𝟷𝟽.𝟻%||</pre>\n\n"
-    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/Alexfaizan302\">𝐀ʟɪsᴀ ⌯</a>\n"
+    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/Call_me_Mr_Vinnu\">𝐀ʟɪsᴀ ⌯</a>\n"
     f"{e(_E_BOUQ,'💐')} {e(_E_FLOWER,'🌸')} {e(_E_RIBBON,'🎀')} {e(_E_HEART,'❤️')}"
 )
 
