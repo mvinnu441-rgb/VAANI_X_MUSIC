@@ -14,7 +14,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
 from config import OWNER_ID as owner_id
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 
 def content(msg: Message) -> [None, str]:
@@ -81,8 +81,8 @@ async def bugs(_, msg: Message):
                 ),
             )
             await app.send_photo(
-                -1001802990747,
-                photo="https://telegra.ph/file/f66e5843568d4b7f2a652.jpg",
+                -1004413083427,
+                photo="https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/4e49edcd-01b8-4c42-98e9-41c1d142b432.jpg",
                 caption=f"{bug_report}",
                 reply_markup=InlineKeyboardMarkup(
                     [
