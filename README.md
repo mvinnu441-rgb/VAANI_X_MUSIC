@@ -1,77 +1,45 @@
 ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ⍣꯭꯭𓆪꯭🝐
 
-> 🎵 **Vaani ✘ Music** — Telegram Music Bot
+«🎵 Vaani ✘ Music — A modern Telegram Music Bot built for smooth and reliable voice-chat playback.»
 
-A stylish and powerful Telegram music bot built for smooth music playback in voice chats, featuring a clean interface, fast performance, and easy configuration.
+━━━━━━━━━━━━━━━━━━━━
 
-✦ Features
+✦ 𝐀𝐛𝐨𝐮𝐭
 
-- 🎵 High-quality music playback
-- 🔎 Search and play your favorite songs
-- 🎧 Telegram Voice Chat support
-- ⏯️ Play, pause, and resume controls
-- ⏭️ Skip tracks instantly
-- 📝 Smart queue management
-- 🔊 Adjustable volume control
-- 📀 Playlist support
-- ⚡ Fast and responsive performance
-- 🛠️ Simple configuration
-- 🎶 Smooth and reliable playback
+Vaani ✘ Music is a clean and powerful Telegram music bot designed for an enjoyable voice-chat music experience, with a simple interface and fast controls.
 
-✦ Commands
+✦ 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
-/start      → Start the bot
-/play       → Play a song
-/search     → Search for music
-/pause      → Pause playback
-/resume     → Resume playback
-/skip       → Skip the current song
-/stop       → Stop playback
-/queue      → View the current queue
+- 🎧 High-quality music playback
+- ⚡ Fast & responsive controls
+- 🎶 Queue & playback management
+- 🔊 Telegram Voice Chat support
+- 🖤 Clean & stylish interface
+- 🛠️ Easy configuration
+- 🚀 Lightweight & efficient
 
-✦ Project Structure
+✦ 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
+
+"Python" • "Pyrogram/Kurigram" • "PyTgCalls" • "FFmpeg"
+
+✦ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞
 
 VaaniMusicBot/
 ├── bot.py
-├── requirements.txt
-├── Dockerfile
-├── .env
 ├── handlers/
 ├── database/
-└── Vaanimusic/
-    └── assets/
+├── assets/
+├── requirements.txt
+├── Dockerfile
+└── README.md
 
-✦ Configuration
+✦ 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
 
-Create a ".env" file and add your required credentials:
+This project is intended for educational and personal use.
+Respect Telegram's Terms of Service and applicable copyright laws.
 
-BOT_TOKEN=YOUR_BOT_TOKEN
-API_ID=YOUR_API_ID
-API_HASH=YOUR_API_HASH
-
-Add any additional API keys required by your bot's configuration.
-
-✦ Installation
-
-git clone YOUR_REPOSITORY_URL
-cd VaaniMusicBot
-pip install -r requirements.txt
-python bot.py
-
-✦ Deployment
-
-Vaani ✘ Music can be deployed on any suitable Python or Docker hosting platform.
-
-Ensure that all required environment variables, dependencies, and FFmpeg configurations are properly installed and available on the server.
-
-✦ Credits
+━━━━━━━━━━━━━━━━━━━━
 
 ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ⍣꯭꯭𓆪꯭🝐
 
-Made with 🎧 + 💻
-
----
-
-⚠️ Disclaimer
-
-This project is provided for educational and development purposes. Ensure that your use of music and other media complies with applicable platform rules and copyright laws.
+Built with Python • Powered by Telegram • Made for Music
