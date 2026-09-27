@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights 
 # -----------------------------------------------
 from pyrogram import filters
 import asyncio
@@ -17,10 +17,10 @@ from pyrogram.types import (
     Message,
 )
 
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 # 👇 YE MISSING IMPORTS ADD KIYE HAIN (System Stats aur Served Users/Chats ke liye)
-from SHUKLAMUSIC.utils.sys import bot_sys_stats
-from SHUKLAMUSIC.utils.database import (
+from VAANIMUSIC.utils.sys import bot_sys_stats
+from VAANIMUSIC.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -38,15 +38,15 @@ from SHUKLAMUSIC.utils.database import (
     skip_off,
     skip_on,
 )
-from SHUKLAMUSIC.utils.decorators.admins import ActualAdminCB
-from SHUKLAMUSIC.utils.decorators.language import language, languageCB
-from SHUKLAMUSIC.utils.inline.settings import (
+from VAANIMUSIC.utils.decorators.admins import ActualAdminCB
+from VAANIMUSIC.utils.decorators.language import language, languageCB
+from VAANIMUSIC.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from SHUKLAMUSIC.utils.inline.start import private_panel
+from VAANIMUSIC.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID, START_IMG_URL, SUPPORT_CHAT
 import config
 
