@@ -1,7 +1,7 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 # -----------------------------------------------
 
 import asyncio
@@ -16,9 +16,9 @@ from pytgcalls import PyTgCalls, exceptions, types
 from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
-from SHUKLAMUSIC import LOGGER, YouTube, app
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.database import (
+from VAANIMUSIC import LOGGER, YouTube, app
+from VAANIMUSIC.misc import db
+from VAANIMUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,15 +31,15 @@ from SHUKLAMUSIC.utils.database import (
     set_loop,
     get_autoplay,
 )
-from SHUKLAMUSIC.utils.exceptions import AssistantErr
-from SHUKLAMUSIC.utils.formatters import (
+from VAANIMUSICC.utils.exceptions import AssistantErr
+from VAANIMUSIC.utils.formatters import (
     check_duration,
     seconds_to_min,
     speed_converter,
 )
-from SHUKLAMUSIC.utils.inline.play import stream_markup
-from SHUKLAMUSIC.utils.stream.autoclear import auto_clean
-from SHUKLAMUSIC.plugins.play.stream import send_queue_empty_msg
+from VAANIMUSIC.utils.inline.play import stream_markup
+from VAANIMUSIC.utils.stream.autoclear import auto_clean
+from VAANIMUSIC.plugins.play.stream import send_queue_empty_msg
 from strings import get_string
 
 autoend = {}
@@ -57,7 +57,7 @@ class Call(PyTgCalls):
         PyTgCallsSession.notice_displayed = True
 
         self.userbot1 = Client(
-            name="SHUKLAAss1",
+            name="VAANIAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -65,7 +65,7 @@ class Call(PyTgCalls):
         self.one = PyTgCalls(self.userbot1, cache_duration=100)
 
         self.userbot2 = Client(
-            name="SHUKLAAss2",
+            name="VAANIAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -73,7 +73,7 @@ class Call(PyTgCalls):
         self.two = PyTgCalls(self.userbot2, cache_duration=100)
 
         self.userbot3 = Client(
-            name="SHUKLAAss3",
+            name="VAANIAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -81,7 +81,7 @@ class Call(PyTgCalls):
         self.three = PyTgCalls(self.userbot3, cache_duration=100)
 
         self.userbot4 = Client(
-            name="SHUKLAAss4",
+            name="VAANIAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -89,7 +89,7 @@ class Call(PyTgCalls):
         self.four = PyTgCalls(self.userbot4, cache_duration=100)
 
         self.userbot5 = Client(
-            name="SHUKLAAss5",
+            name="VAANIAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -787,4 +787,4 @@ class Call(PyTgCalls):
                         )
 
 
-SHUKLA = Call()
+VAANI = Call()
