@@ -1,15 +1,14 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 
 import random
@@ -18,14 +17,14 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ButtonStyle
 from pyrogram.errors import RPCError
 from config import LOGGER_ID as LOG_GROUP_ID
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 photo = [
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
 ]
 
 
@@ -123,7 +122,7 @@ async def on_left_chat_member(_, message: Message):
         chat_id = message.chat.id
 
         left = (
-            "╭━━━〔 🚫 𝐀ʟɪsᴀ ✦ 𝐌ᴜsɪᴄ 〕━━━╮\n"
+            "╭━━━〔 🚫 〕━━━╮\n"
             "┃\n"
             "┃ <b>#𝐋ᴇғᴛ_𝐆ʀᴏᴜᴘ</b>\n"
             "┃\n"
