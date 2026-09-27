@@ -36,12 +36,19 @@ Volume Control| Fast Response| Easy Configuration
 🎛️ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
 
 /start        ── Start the bot
+
 /play         ── Play a song
+
 /search       ── Search for music
+
 /pause        ── Pause playback
+
 /resume       ── Resume playback
+
 /skip         ── Skip current track
+
 /stop         ── Stop playback
+
 /queue        ── Show music queue
 
 ---
