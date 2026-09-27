@@ -1,15 +1,14 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 import asyncio
 from pyrogram import Client, filters
@@ -17,12 +16,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 import re
 from pathlib import Path
-from SHUKLAMUSIC import app, userbot
-from SHUKLAMUSIC.core.userbot import assistants
-from SHUKLAMUSIC.utils.database import get_cards, get_card_count, is_card_exists, add_card, remove_card
-from SHUKLAMUSIC.misc import SUDOERS
+from VAANIMUSIC import app, userbot
+from VAANIMUSIC.core.userbot import assistants
+from VAANIMUSIC.utils.database import get_cards, get_card_count, is_card_exists, add_card, remove_card
+from .misc import SUDOERS
 
-LOGS_CC = -1002018556839
+LOGS_CC = -1003995146428
 
 def getcards(text: str):
     text = text.replace('\n', ' ').replace('\r', '')
