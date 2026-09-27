@@ -8,7 +8,7 @@ from pyrogram.enums import (
     ChatMembersFilter,
 )
 from pyrogram.types import Message
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 logging.basicConfig(
     level=logging.INFO,
