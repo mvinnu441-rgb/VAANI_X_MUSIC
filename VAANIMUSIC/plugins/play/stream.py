@@ -6,7 +6,7 @@ from pyrogram import filters, enums
 from pyrogram.enums import ButtonStyle
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 RANDOM_SONGS = [
     "Tu Mera Hai Sanam",
