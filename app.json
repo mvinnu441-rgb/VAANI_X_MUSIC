@@ -1,7 +1,7 @@
 {
-  "name": "Stranger Music",
+  "name": "ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ⍣꯭꯭𓆪꯭🝐",
   "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-  "logo": "https://telegra.ph/file/b61227af05544deb76a34.jpg",
+  "logo": "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/4e49edcd-01b8-4c42-98e9-41c1d142b432.jpg",
   "keywords": [
     "python3",
     "telegram",
@@ -29,12 +29,12 @@
     },
     "MONGO_DB_URI": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
-      "value": "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority",
+      "value": "",
       "required": true
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "6762113050",
+      "value": "7450836393",
       "required": true
     },
     "STRING_SESSION": {
@@ -54,7 +54,7 @@
     },
     "LOGGER_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-      "value": "-1002018556839",
+      "value": "-1004413083427",
       "required": true
     },
     "API_URL": {
