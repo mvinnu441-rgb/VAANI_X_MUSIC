@@ -1,15 +1,14 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 from pyrogram import Client
 import config
@@ -21,35 +20,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="SHUKLAAss1",
+            name="VAANIAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="SHUKLAAss2",
+            name="VAANIAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="SHUKLAAss3",
+            name="VAANIAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="SHUKLAAss4",
+            name="VAANIAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="SHUKLAAss5",
+            name="VAANIAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -61,7 +60,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("MADARA_X_SUPPORT")
+                await self.one.join_chat("VINNU_X_SUPPORT")
                 await self.one.join_chat("EDITING_PFP")
             except:
                 pass
@@ -82,7 +81,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("MADARA_X_SUPPORT")
+                await self.two.join_chat("VINNU_X_SUPPORT")
                 await self.one.join_chat("EDITING_PFP")
             except:
                 pass
@@ -103,7 +102,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("MADARA_X_SUPPORT")
+                await self.three.join_chat("VINNU_X_SUPPORT")
                 await self.one.join_chat("EDITING_PFP")
             except:
                 pass
@@ -124,7 +123,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("MADARA_X_SUPPORT")
+                await self.four.join_chat("VINNU_X_SUPPORT")
                 await self.one.join_chat("EDITING_PFP")
             except:
                 pass
@@ -145,7 +144,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("MADARA_X_SUPPORT")
+                await self.five.join_chat("VINNU_X_SUPPORT")
                 await self.one.join_chat("EDITING_PFP")
             except:
                 pass
