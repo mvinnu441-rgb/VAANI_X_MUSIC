@@ -1,5 +1,7 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 # -----------------------------------------------
 
 import asyncio
@@ -8,8 +10,8 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import get_assistant
+from VAANIMUSIC import app
+from VAANIMUSIC.utils.database import get_assistant
 from config import OWNER_ID
 
 
@@ -48,7 +50,7 @@ async def add_allbot(client, message: Message):
             chat_id = dialog.chat.id
 
             # Skip this specific chat
-            if chat_id == -1003374468093:
+            if chat_id == -1003995146428:
                 continue
 
             try:
