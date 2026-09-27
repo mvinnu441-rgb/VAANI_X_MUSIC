@@ -1,6 +1,7 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 # -----------------------------------------------
 import random
 import asyncio
@@ -8,7 +9,7 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 def calculate_gay_percentage():
     return random.randint(1, 100)
