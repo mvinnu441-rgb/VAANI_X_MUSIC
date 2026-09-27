@@ -14,7 +14,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from datetime import datetime
 import os
 from config import OWNER_ID
