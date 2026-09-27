@@ -1,23 +1,22 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 import random 
 from pyrogram import filters, Client, enums
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pyrogram.types import ChatPermissions
-from SHUKLAMUSIC.mongo.nightmodedb import nightdb, nightmode_on, nightmode_off, get_nightchats 
+from VAANIMUSIC.mongo.nightmodedb import nightdb, nightmode_on, nightmode_off, get_nightchats 
 
 
 CLOSE_CHAT = ChatPermissions(
