@@ -14,7 +14,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from VAANIMUSIC import YouTube, app
-from VAANIMUSIC.core.call import SHUKLA
+from VAANIMUSIC.core.call import VAANI
 from VAANIMUSIC.misc import SUDOERS, db
 from VAANIMUSIC.utils.database import (
     get_active_chats,
