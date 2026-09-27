@@ -1,15 +1,14 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 import random
 import string
@@ -17,22 +16,22 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 import config
-from SHUKLAMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.utils import seconds_to_min, time_to_seconds
-from SHUKLAMUSIC.utils.channelplay import get_channeplayCB
-from SHUKLAMUSIC.utils.decorators.language import languageCB
-from SHUKLAMUSIC.utils.decorators.play import PlayWrapper
-from SHUKLAMUSIC.utils.formatters import formats
-from SHUKLAMUSIC.utils.inline import (
+from VAANIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from VAANIMUSIC.core.call import VAANI 
+from VAANIMUSIC.utils import seconds_to_min, time_to_seconds
+from VAANIMUSIC.utils.channelplay import get_channeplayCB
+from VAANIMUSIC.utils.decorators.language import languageCB
+from VAANIMUSIC.utils.decorators.play import PlayWrapper
+from VAANIMUSIC.utils.formatters import formats
+from VAANIMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from SHUKLAMUSIC.utils.logger import play_logs
-from SHUKLAMUSIC.utils.stream.stream import stream
+from VAANIMUSIC.utils.logger import play_logs
+from VAANIMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 @app.on_message(
