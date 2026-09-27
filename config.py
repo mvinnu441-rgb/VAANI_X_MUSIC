@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "zaviaan_exe")
 BOT_USERNAME = getenv("BOT_USERNAME", "Vaani_music_bot")
 BOT_NAME = getenv("BOT_NAME", "ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ⍣꯭꯭𓆪꯭🝐")
-ASSUSERNAME = getenv("ASSUSERNAME", "Aiused")
+ASSUSERNAME = getenv("ASSUSERNAME", "Fighter")
 
 
 # MongoDB
@@ -24,8 +24,8 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-OWNER_ID = int(getenv("OWNER_ID", 7450836393)
+LOGGER_ID = int(getenv("LOGGER_ID", -1004466672938))
+OWNER_ID = int(getenv("OWNER_ID", 7450836393))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -37,8 +37,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alisa_x_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+o4moGHFqCPU4ZTU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/music_X_suppor")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/jhichichic")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
