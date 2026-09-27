@@ -4,16 +4,16 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from config import OWNER_ID
 
 
 BOT_LIST = [
-    "MADARA_X_RAID10_BOT",
-    "MADARA_X_RAID_BOT",
-    "MADARA_X_RAID2_BOT",
-    "MADARA_X_RAID3_BOT",
-    "MADARA_X_RAID4_BOT",
+    "VINNU_X_RAID10_BOT",
+    "VINNU_X_RAID_BOT",
+    "VINNU_X_RAID2_BOT",
+    "VINNU_X_RAID3_BOT",
+    "VINNU_X_RAID4_BOT",
 ]
 
 
