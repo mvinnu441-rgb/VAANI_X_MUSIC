@@ -99,7 +99,7 @@ async def ctest(_, message):
         photo2 = (await app.get_chat(c2_id)).photo
 
         # Default image
-        default_pfp = "SHUKLAMUSIC/assets/upic.png"
+        default_pfp = "VAANIMUSIC/assets/upic.png"
 
         # Download first profile photo
         try:
@@ -129,7 +129,7 @@ async def ctest(_, message):
         img1 = Image.open(p1).convert("RGBA")
         img2 = Image.open(p2).convert("RGBA")
         img = Image.open(
-            "SHUKLAMUSIC/assets/cppic.png"
+            "VAANIMUSIC/assets/cppic.png"
         ).convert("RGBA")
 
         # Resize profile pictures
