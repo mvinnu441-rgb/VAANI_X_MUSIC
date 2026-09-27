@@ -13,7 +13,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from VAANIMUSIC import app
-from VAANIMUSIC.core.call import SHUKLA
+from VAANIMUSIC.core.call import VAANI 
 from VAANIMUSIC.misc import SUDOERS, db
 from VAANIMUSIC.utils import AdminRightsCheck
 from VAANIMUSIC.utils.database import is_active_chat, is_nonadmin_chat
