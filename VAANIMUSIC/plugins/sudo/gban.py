@@ -1,24 +1,23 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 import asyncio
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.utils import get_readable_time
-from SHUKLAMUSIC.utils.database import (
+from VAANIMUSIC import app
+from VAANIMUSIC.misc import SUDOERS
+from VAANIMUSIC.utils import get_readable_time
+from VAANIMUSIC.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -26,8 +25,8 @@ from SHUKLAMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from SHUKLAMUSIC.utils.decorators.language import language
-from SHUKLAMUSIC.utils.extraction import extract_user
+from VAANIMUSIC.utils.decorators.language import language
+from VAANIMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
