@@ -1,4 +1,4 @@
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from pyrogram import filters
 from pyrogram.enums import ParseMode, ButtonStyle
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
