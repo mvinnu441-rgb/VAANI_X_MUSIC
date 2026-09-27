@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 import requests
 import os
 
