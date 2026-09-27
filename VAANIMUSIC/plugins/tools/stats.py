@@ -21,13 +21,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.userbot import assistants
-from SHUKLAMUSIC.misc import SUDOERS, mongodb
-from SHUKLAMUSIC.plugins import ALL_MODULES
-from SHUKLAMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from SHUKLAMUSIC.utils.decorators.language import language, languageCB
-from SHUKLAMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from VAANIMUSIC import app
+from VAANIMUSIC.core.userbot import assistants
+from VAANIMUSIC.misc import SUDOERS, mongodb
+from VAANIMUSIC.plugins import ALL_MODULES
+from VAANIMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
+from VAANIMUSIC.utils.decorators.language import language, languageCB
+from VAANIMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
