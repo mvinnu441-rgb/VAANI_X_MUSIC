@@ -65,7 +65,7 @@ async def join_watcher(_, message):
         )
 
         msg = (
-            "╭━━━〔 🌸 𝐀ʟɪsᴀ ✦ 𝐌ᴜsɪᴄ 〕━━━╮\n"
+            "╭━━━〔 🌸 ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ⍣꯭꯭𓆪꯭🝐〕━━━╮\n"
             "┃\n"
             "┃ 🎵 <b>𝐁ᴏᴛ 𝐀ᴅᴅᴇᴅ 𝐈ɴ 𝐍ᴇᴡ 𝐆ʀᴏᴜᴘ</b>\n"
             "┃\n"
@@ -122,7 +122,7 @@ async def on_left_chat_member(_, message: Message):
         chat_id = message.chat.id
 
         left = (
-            "╭━━━〔 🚫 〕━━━╮\n"
+            "╭━━━〔 🚫 ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ⍣꯭꯭𓆪꯭🝐〕━━━╮\n"
             "┃\n"
             "┃ <b>#𝐋ᴇғᴛ_𝐆ʀᴏᴜᴘ</b>\n"
             "┃\n"
