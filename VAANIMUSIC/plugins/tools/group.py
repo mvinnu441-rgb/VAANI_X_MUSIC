@@ -1,6 +1,7 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Voice Chat + Utility Commands
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 # -----------------------------------------------
 
 import ast
@@ -10,7 +11,7 @@ import aiohttp
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from config import OWNER_ID, GOOGLE_API_KEY
 
 
