@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.enums import ButtonStyle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from config import BOT_USERNAME
-from SHUKLAMUSIC.utils.errors import capture_err
+from VAANIMUSIC.utils.errors import capture_err
 import httpx
 
 # ── emoji_2e47b_by_TgEmodziBot pack IDs ──
