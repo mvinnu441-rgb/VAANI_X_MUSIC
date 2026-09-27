@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 # -----------------------------------------------
 import asyncio
 from pyrogram import filters, Client, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.enums import ParseMode, ButtonStyle
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 INFO_TEXT = (
     "<blockquote><u><b>ᴜsᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</b></u>\n\n"
