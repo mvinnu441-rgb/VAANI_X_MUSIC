@@ -1,25 +1,24 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 from pyrogram import filters
 from pyrogram.types import Message
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import SUDOERS, db
-from SHUKLAMUSIC.utils import AdminRightsCheck
-from SHUKLAMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from SHUKLAMUSIC.utils.decorators.language import languageCB
-from SHUKLAMUSIC.utils.inline import close_markup, speed_markup
+from VAANIMUSIC import app
+from VAANIMUSIC.core.call import SHUKLA
+from VAANIMUSIC.misc import SUDOERS, db
+from VAANIMUSIC.utils import AdminRightsCheck
+from VAANIMUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from VAANIMUSIC.utils.decorators.language import languageCB
+from VAANIMUSIC.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
