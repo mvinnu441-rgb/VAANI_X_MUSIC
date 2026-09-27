@@ -12,7 +12,7 @@
 # -----------------------------------------------
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message, User
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 async def extract_user(m: Message) -> User:
     if m.reply_to_message:
