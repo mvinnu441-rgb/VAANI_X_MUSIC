@@ -1,8 +1,8 @@
-# ---------------------------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla
-# 📅 Copyright © 2025 – All Rights Reerved
-# ---------------------------------------------------------------
+# -----------------------------------------------
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
+# -----------------------------------------------
 
 import asyncio
 import random
@@ -12,7 +12,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ParseMode
 from pyrogram.errors import FloodWait
 
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 
 SPAM_CHATS = []
