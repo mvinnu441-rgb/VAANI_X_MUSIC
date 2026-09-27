@@ -1,26 +1,25 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
 # This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 import asyncio
 import importlib
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 import config
-from SHUKLAMUSIC import LOGGER, app, userbot
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import sudo
-from SHUKLAMUSIC.plugins import ALL_MODULES
-from SHUKLAMUSIC.utils.database import get_banned_users, get_gbanned
+from VAANIMUSIC import LOGGER, app, userbot
+from VAANIMUSIC.core.call import VAANI
+from VAANIMUSIC.misc import sudo
+from VAANIMUSIC.plugins import ALL_MODULES
+from VAANIMUSIC.utils.database import get_banned_users, get_gbanned
 
 async def init():
     if (
@@ -44,27 +43,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SHUKLAMUSIC.plugins" + all_module)
-    LOGGER("SHUKLAMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("VAANIMUSIC.plugins" + all_module)
+    LOGGER("VAANIMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await SHUKLA.start()
+    await VAANI.start()
     try:
-        await SHUKLA.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await VAANI.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("SHUKLAMUSIC").error(
+        LOGGER("VAANIMUSIC").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗔𝗟𝗜𝗦𝗔 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
-    await SHUKLA.decorators()
-    LOGGER("SHUKLAMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗠𝗔𝗗𝗔𝗥𝗔\n╚═════ஜ۩۞۩ஜ════╝"
+    await VAANI.decorators()
+    LOGGER("VAANIMUSIC").info(
+        "╔═════ஜ۩۞۩ஜ════╗\n  𓆩☠︎︎𓆪𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗩𝗜𝗡𝗡𝗨\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SHUKLAMUSIC").info("𝗦𝗧𝗢𝗣 𝗔𝗟𝗜𝗦𝗔 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("VAANIMUSIC").info("𝗦𝗧𝗢𝗣 𝗔𝗟𝗜𝗦𝗔 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
