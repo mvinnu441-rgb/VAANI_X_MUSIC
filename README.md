@@ -1,5 +1,5 @@
-<h1 align="center">ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ ⍣꯭𓆪꯭🝐
-
+<h1 align="center">
+  ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ ⍣꯭𓆪꯭🝐
 </h1><p align="center">
   <b>🎧 NEXT-GEN TELEGRAM MUSIC BOT</b>
   <br>
@@ -20,54 +20,100 @@ With a clean interface, responsive controls and an easy-to-configure architectur
   <i>« 🎶 Search it. Play it. Feel it. »</i>
 </p>---
 
-⚡ 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
+✦ 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
-<p align="center">🎵 Playback| 🔎 Search| 🎧 Voice Chat
-High Quality| Fast Search| Stable VC
+«🎵 Music Playback
+Play your favourite tracks directly in Telegram voice chats.»
 
-⏯️ Controls| 📝 Queue| 📀 Playlists
-Play • Pause • Resume| Queue Management| Playlist Support
+«🔎 Fast Search
+Quickly search and find songs with simple commands.»
 
-🔊 Volume| ⚡ Performance| 🛠️ Setup
-Volume Control| Fast Response| Easy Configuration
+«🎧 Voice Chat
+Stream music directly into Telegram group voice chats.»
 
-</p>---
+«⏯️ Playback Controls
+Play, pause, resume, skip and stop with interactive controls.»
 
-🎛️ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+«📜 Queue System
+Add multiple songs and manage the playback queue easily.»
 
-/start        ── Start the bot.       
-/play         ── Play a song.     
-/search       ── Search for music.     
-/pause        ── Pause playback.        
-/resume       ── Resume playback.         
-/skip         ── Skip current track.          
-/stop         ── Stop playback.           
-/queue        ── Show music queue.          
+«📂 Playlists
+Organize and play multiple tracks with playlist support.»
 
----
+«⚡ Fast & Responsive
+Designed for quick responses and smooth interaction.»
 
-📂 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞
+«🛠️ Easy Configuration
+Simple environment-based configuration for deployment.»
 
-VaaniMusicBot/
-│
-├── 📄 bot.py
-├── 📄 requirements.txt
-├── 📄 Dockerfile
-├── 🔐 .env
-│
-├── 📁 handlers/
-│   └── ...
-│
-├── 📁 database/
-│   └── ...
-│
-└── 📁 Vaanimusic/
-    └── 📁 assets/
-        └── ...
+«🔐 Secure Setup
+Sensitive credentials can be stored safely through environment variables.»
 
 ---
 
-🔐 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧
+✦ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+
+Command| Description
+"/start"| Start the bot
+"/help"| Show help menu
+"/play"| Play a song
+"/pause"| Pause playback
+"/resume"| Resume playback
+"/skip"| Skip current song
+"/stop"| Stop playback
+"/queue"| View current queue
+"/playlist"| Manage playlists
+"/ping"| Check bot response
+
+«⚠️ Commands may vary depending on your configured handlers and bot version.»
+
+---
+
+✦ 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
+
+<p align="center">"Python" • "Telegram API" • "Voice Chat" • "PyTgCalls" • "FFmpeg"
+
+</p>The project is built around a modular architecture so individual components can be maintained and updated without rebuilding the entire bot.
+
+---
+
+✦ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞
+
+VaaniMusic/
+│
+├── bot.py
+├── requirements.txt
+├── Dockerfile
+├── .env
+│
+├── handlers/
+│   ├── start.py
+│   ├── play.py
+│   ├── music.py
+│   └── admin.py
+│
+├── database/
+│   └── database.py
+│
+├── Vaanimusic/
+│   └── assets/
+│
+└── README.md
+
+---
+
+✦ 𝐐𝐮𝐢𝐜𝐤 𝐒𝐞𝐭𝐮𝐩
+
+① Clone Repository
+
+git clone YOUR_REPOSITORY_URL
+cd VaaniMusic
+
+② Install Dependencies
+
+pip install -r requirements.txt
+
+③ Configure Environment
 
 Create a ".env" file:
 
@@ -75,108 +121,83 @@ BOT_TOKEN=YOUR_BOT_TOKEN
 API_ID=YOUR_API_ID
 API_HASH=YOUR_API_HASH
 
-Add other API credentials required by your configuration.
+MONGO_DB_URI=YOUR_MONGODB_URI
 
-<p align="center">
-  <b>⚠️ Keep your credentials private.</b>
-  <br>
-  <sub>Never upload your real .env, Bot Token, API ID or API Hash to GitHub.</sub>
-</p>---
+OWNER_ID=YOUR_TELEGRAM_ID
 
-🚀 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
-
-① Clone
-
-git clone YOUR_REPOSITORY_URL
-cd VaaniMusicBot
-
-② Install Dependencies
-
-pip install -r requirements.txt
-
-③ Configure
-
-Create your ".env" file and add the required credentials.
-
-④ Start
+④ Start Bot
 
 python bot.py
 
 ---
 
-🐳 𝐃𝐨𝐜𝐤𝐞𝐫
+✦ 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
 
-Build
+Before running the bot, make sure your server has:
 
-docker build -t vaani-music .
-
-Run
-
-docker run --env-file .env vaani-music
+- 🐍 Python 3.x
+- 🎙️ Telegram API credentials
+- 🤖 Telegram Bot Token
+- 🎧 FFmpeg
+- 📦 Required Python packages
+- 🗄️ MongoDB, if enabled by your configuration
 
 ---
 
-🎧 𝐏𝐥𝐚𝐲𝐛𝐚𝐜𝐤 𝐅𝐥𝐨𝐰
+✦ 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭
 
-<p align="center"><b>👤 User</b>
-<br>
-↓
-<br>
-<b>ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ</b>
-<br>
-↓
-<br>
-🔎 Search
-  →  
-🎶 Select Track
-  →  
-📥 Stream
-  →  
-🎧 Voice Chat
-  →  
-🔊 Playback
+Vaani Music can be deployed on a compatible Linux server or supported cloud hosting platform.
 
+GitHub
+   ↓
+Server / Cloud
+   ↓
+Python + FFmpeg
+   ↓
+Vaani Music
+   ↓
+Telegram Voice Chat 🎧
+
+---
+
+✦ 𝐒𝐭𝐚𝐛𝐥𝐞 & 𝐌𝐨𝐝𝐮𝐥𝐚𝐫
+
+Vaani Music is structured with separate handlers, database components and assets to make future updates easier.
+
+New features can be added without unnecessarily modifying the core playback system.
+
+---
+
+✦ 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
+
+This project is intended for educational and personal use.
+
+The bot does not claim ownership of any third-party music or media. Users are responsible for ensuring that their use of the bot complies with applicable laws, platform rules and copyright requirements.
+
+The developers are not responsible for misuse of this project.
+
+---
+
+✦ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
+
+<p align="center">
+  <b>Need help or want to report an issue?</b>
+  <br><br>
+  Join the official support channel/community.
+</p><p align="center">
+  <a href="YOUR_SUPPORT_CHANNEL">
+    <img src="https://img.shields.io/badge/📢%20Support%20Channel-Join-2CA5E0?style=for-the-badge">
+  </a>
 </p>---
 
-🛠️ 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
+✦ 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
 
-<p align="center">🐍 Python   •  
-🤖 Telegram Bot API   •  
-🎧 PyTgCalls   •  
-🔊 FFmpeg   •  
-🗄️ Database   •  
-🐳 Docker
-
-</p>---
-
-💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭
-
-Need help, found a bug, or want to stay updated?
-
-<p align="center"><a href="YOUR_SUPPORT_CHANNEL_URL">
-  <img src="https://img.shields.io/badge/📢%20Support%20Channel-Join%20Now-2CA5E0?style=for-the-badge">
-</a></p><p align="center">
-  <sub>Join the channel for updates, announcements and project support.</sub>
-</p>---
-
-💫 𝐕𝐚𝐚𝐧𝐢 𝐌𝐮𝐬𝐢𝐜
-
-<p align="center"><h2 align="center">ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ ⍣꯭𓆪꯭🝐</h2><p align="center">
-  <b>🎵 Music Without Limits</b>
+<p align="center">
+  Made with 🎧 + 🐍 + ❤️
   <br>
-  <sub>Built for Telegram • Designed for Music</sub>
-</p></p>---
-
-⚠️ 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
-
-This project is intended for educational and development purposes.
-
-Users are responsible for ensuring that their use of music, audio and other media complies with applicable copyright laws, Telegram rules and the terms of the services they use.
-
----
-
-<p align="center"><b>ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ ⍣꯭𓆪꯭🝐</b>
-
-<br><sub>Made with 🎧 • ⚡ • 💻</sub>
-
+  <b>ᯓ꯭𝐕ᴀᴀɴɪ ✘ 𝐌ᴜsɪᴄ ⍣꯭𓆪꯭🝐</b>
+</p><p align="center">
+  <sub>© 2026 Vaani Music • All Rights Reserved</sub>
+</p><p align="center">
+  <b>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</b>
 </p>
