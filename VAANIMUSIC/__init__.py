@@ -10,7 +10,7 @@
 #
 # ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
-
+import config 
 from VAANIMUSIC.core.bot import VAANI
 from VAANIMUSIC.core.dir import dirr
 from VAANIMUSIC.core.git import git
