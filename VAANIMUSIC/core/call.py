@@ -31,7 +31,7 @@ from VAANIMUSIC.utils.database import (
     set_loop,
     get_autoplay,
 )
-from VAANIMUSICC.utils.exceptions import AssistantErr
+from VAANIMUSIC.utils.exceptions import AssistantErr
 from VAANIMUSIC.utils.formatters import (
     check_duration,
     seconds_to_min,
