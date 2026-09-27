@@ -15,7 +15,7 @@ from pyrogram.types import InlineKeyboardButton
 
 import config
 from pyrogram.enums import ButtonStyle
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 # ── Premium emoji IDs (Emoji_fan37_by_TgEmodziBot pack) ──
 _E_SPARK   = 4958489311726011319   # ✨
