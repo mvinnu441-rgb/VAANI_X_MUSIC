@@ -1,6 +1,6 @@
 from pyrogram.enums import ParseMode
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import is_on_off
+from VAANIMUSIC import app
+from VAANIMUSIC.utils.database import is_on_off
 from config import LOGGER_ID
 
 
