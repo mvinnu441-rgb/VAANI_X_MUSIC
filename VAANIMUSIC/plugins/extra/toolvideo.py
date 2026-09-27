@@ -15,7 +15,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pydub import AudioSegment
 import speech_recognition as sr
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 # --------------------------------------
 
 def convert_video_to_text(video_path):
