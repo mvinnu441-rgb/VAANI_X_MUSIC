@@ -8,11 +8,11 @@ from pyrogram.enums import ChatType, ButtonStyle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 import config
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.misc import _boot_
-from SHUKLAMUSIC.plugins.sudo.sudoers import sudoers_list
-from SHUKLAMUSIC.utils import bot_sys_stats
-from SHUKLAMUSIC.utils.database import (
+from VAANIMUSIC import app
+from VAANIMUSIC.misc import _boot_
+from VAANIMUSIC.plugins.sudo.sudoers import sudoers_list
+from VAANIMUSIC.utils import bot_sys_stats
+from VAANIMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -21,9 +21,9 @@ from SHUKLAMUSIC.utils.database import (
     get_served_users,
     is_banned_user,
 )
-from SHUKLAMUSIC.utils.decorators.language import LanguageStart
-from SHUKLAMUSIC.utils.formatters import get_readable_time
-from SHUKLAMUSIC.utils.inline import help_pannel, private_panel, start_panel
+from VAANIMUSIC.utils.decorators.language import LanguageStart
+from VAANIMUSIC.utils.formatters import get_readable_time
+from VAANIMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
@@ -37,9 +37,9 @@ except ImportError:
 welcome_db = db.welcome_config
 
 YUMI_PICS = [
-    "https://i.ibb.co/bgzQ2YV1/v-Y9z-JCSF.jpg",
-    "https://i.ibb.co/yFHCgpRG/p5-Vg-N6-Au.jpg",
-    "https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
 ]
 
 GREET = ["💞", "🥂", "🔍", "🧪", "⚡", "🔥"]
@@ -147,13 +147,13 @@ async def start_pm(client, message: Message, _):
     await asyncio.sleep(0.1)
     await loading_1.edit_text("<b>𝐃ɪɴɢ...❤️‍🔥</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>𝐀ℓɪѕ𝛂 𝐒ᴛ𝛂ʀᴛɪɴɢ.♪</b>")
+    await loading_1.edit_text("<b>𝐕ᴀᴀɴɪ 𝐒ᴛᴀʀᴛɪɴɢ.♪</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>𝐀ℓɪѕ𝛂 𝐒ᴛ𝛂ʀᴛɪɴɢ..♪</b>")
+    await loading_1.edit_text("<b>𝐕ᴀᴀɴɪ 𝐒ᴛᴀʀᴛɪɴɢ..♪</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>𝐀ℓɪѕ𝛂 𝐒ᴛ𝛂ʀᴛɪɴɢ...♪</b>")
+    await loading_1.edit_text("<b>𝐕ᴀᴀɴɪ 𝐒ᴛᴀʀᴛɪɴɢ...♪</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>𝐀ℓɪѕ𝛂 𝐒ᴛ𝛂ʀᴛєᴅ!🥀</b>")
+    await loading_1.edit_text("<b>𝐕ᴀᴀɴɪ 𝐒ᴛᴀʀᴛᴇᴅ!🥀</b>")
     await asyncio.sleep(0.1)
     await loading_1.delete()
     # --- ANIMATION END ---
