@@ -1,28 +1,27 @@
 # -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
+# 🔴 Vaani ✘ Music Project
+# 🔷️ Developed & Maintained by: ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
+# 📅 Copyright © 2026 – All Rights Reserved
 #
 # 📖 License:
-# This source code is for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
+# This source code is open for educational and non-commercial use ONLY.
+# Commercial use, redistribution, or modification of this source
+# without prior written permission from the author is prohibited.
 #
-# ❤️ Made with dedication and love by ItzShukla
+# ❤️ Made with dedication & love by ᯓ꯭𝐌ʀ 𝐕ɪɴɴᴜ⍣꯭꯭𓆪꯭🝐
 # -----------------------------------------------
 
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters, enums
 from pyrogram.enums import ChatMemberStatus, ButtonStyle
 from typing import Union, Optional
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageChops
-from SHUKLAMUSIC.utils.database import add_served_chat, get_assistant, is_active_chat
-from SHUKLAMUSIC.misc import SUDOERS
-from SHUKLAMUSIC.mongo.afkdb import PROCESS
-from SHUKLAMUSIC.utils.Shukla_ban import admin_filter
+from VAANIMUSIC.utils.database import add_served_chat, get_assistant, is_active_chat
+from VAANIMUSIC.misc import SUDOERS
+from VAANIMUSIC.mongo.afkdb import PROCESS
+from VAANIMUSIC.utils.Vaani_ban import admin_filter
 from logging import getLogger
 import random
 import asyncio
