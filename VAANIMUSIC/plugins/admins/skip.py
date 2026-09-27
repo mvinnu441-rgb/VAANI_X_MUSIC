@@ -8,13 +8,13 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from SHUKLAMUSIC import YouTube, app
-from SHUKLAMUSIC.core.call import SHUKLA
-from SHUKLAMUSIC.misc import db
-from SHUKLAMUSIC.utils.database import get_loop
-from SHUKLAMUSIC.utils.decorators import AdminRightsCheck
-from SHUKLAMUSIC.utils.inline import close_markup, stream_markup
-from SHUKLAMUSIC.utils.stream.autoclear import auto_clean
+from VAANIMUSIC import YouTube, app
+from VAANIMUSIC.core.call import SHUKLA
+from VAANIMUSIC.misc import db
+from VAANIMUSIC.utils.database import get_loop
+from VAANIMUSIC.utils.decorators import AdminRightsCheck
+from VAANIMUSIC.utils.inline import close_markup, stream_markup
+from VAANIMUSIC.utils.stream.autoclear import auto_clean
 from config import BANNED_USERS
 
 
@@ -71,7 +71,7 @@ async def skip(cli, message: Message, _, chat_id):
                         ),
                         reply_markup=close_markup(_),
                     )
-                    await SHUKLA.stop_stream(chat_id)
+                    await VAANI.stop_stream(chat_id)
                 except Exception:
                     pass
                 return
@@ -95,7 +95,7 @@ async def skip(cli, message: Message, _, chat_id):
                     reply_markup=close_markup(_),
                 )
                 try:
-                    return await SHUKLA.stop_stream(chat_id)
+                    return await VAANI.stop_stream(chat_id)
                 except Exception:
                     return
 
@@ -108,7 +108,7 @@ async def skip(cli, message: Message, _, chat_id):
                     ),
                     reply_markup=close_markup(_),
                 )
-                return await SHUKLA.stop_stream(chat_id)
+                return await VAANI.stop_stream(chat_id)
             except Exception:
                 return
 
@@ -139,7 +139,7 @@ async def skip(cli, message: Message, _, chat_id):
             )
 
         try:
-            await SHUKLA.skip_stream(
+            await VAANI.skip_stream(
                 chat_id,
                 link,
                 video=status,
@@ -177,7 +177,7 @@ async def skip(cli, message: Message, _, chat_id):
             return await mystic.edit_text(_["call_6"])
 
         try:
-            await SHUKLA.skip_stream(
+            await VAANI.skip_stream(
                 chat_id,
                 file_path,
                 video=status,
@@ -208,7 +208,7 @@ async def skip(cli, message: Message, _, chat_id):
     # INDEX STREAM
     elif "index_" in queued:
         try:
-            await SHUKLA.skip_stream(
+            await VAANI.skip_stream(
                 chat_id,
                 videoid,
                 video=status,
@@ -229,7 +229,7 @@ async def skip(cli, message: Message, _, chat_id):
     # TELEGRAM / SOUNDCLOUD / YOUTUBE
     else:
         try:
-            await SHUKLA.skip_stream(
+            await VAANI.skip_stream(
                 chat_id,
                 queued,
                 video=status,
