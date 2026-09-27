@@ -5,9 +5,9 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.raw import functions
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.utils.database import get_assistant
-from SHUKLAMUSIC.core.mongo import mongodb
+from VAANIMUSIC import app
+from VAANIMUSIC.utils.database import get_assistant
+from VAANIMUSIC.core.mongo import mongodb
 
 LOGGER = getLogger(__name__)
 
