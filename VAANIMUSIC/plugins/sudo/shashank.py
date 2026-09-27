@@ -1,10 +1,10 @@
 import requests
 import random
-from SHUKLAMUSIC import app, userbot
-from SHUKLAMUSIC.misc import SUDOERS
+from VAANIMUSIC import app, userbot
+from VAANIMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from SHUKLAMUSIC.utils.Shukla_ban import admin_filter
+from VAANIMUSIC.utils.Vaani_ban import admin_filter
 
 
 shashank_text = [
