@@ -184,8 +184,8 @@ The developers are not responsible for misuse of this project.
   <b>Need help or want to report an issue?</b>
   <br><br>
   Join the official support channel/community.
-</p><p align="center">
-  <a href="YOUR_SUPPORT_CHANNEL">
+  <p align="center">
+  <a href="https://t.me/Vinnu_channel_2">
     <img src="https://img.shields.io/badge/📢%20Support%20Channel-Join-2CA5E0?style=for-the-badge">
   </a>
 </p>---
