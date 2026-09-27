@@ -1,6 +1,6 @@
 from os import path
 from yt_dlp import YoutubeDL
-from SHUKLAMUSIC.utils.formatters import seconds_to_min
+from VAANIMUSIC.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
