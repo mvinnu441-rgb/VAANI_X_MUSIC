@@ -14,8 +14,8 @@ from google import genai
 from pyrogram import filters, enums
 from pyrogram.types import Message
 
-from SHUKLAMUSIC import app
-from SHUKLAMUSIC.core.mongo import mongodb
+from VAANIMUSIC import app
+from VAANIMUSIC.core.mongo import mongodb
 from config import BANNED_USERS, OWNER_ID
 
 
