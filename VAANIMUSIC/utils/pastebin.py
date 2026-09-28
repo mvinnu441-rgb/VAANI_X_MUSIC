@@ -45,7 +45,7 @@ async def post(url: str, *args, **kwargs):
                 data = await resp.text()
         return data
 
-async def SHUKLABin(text):
+async def VAANIBin(text):
     resp = await post(f"{BASE}api/v2/paste", data=text)
     if not resp["success"]:
         return
