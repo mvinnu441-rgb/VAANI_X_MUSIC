@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from VAANIMUSIC import YouTube, app
-from VAANIMUSIC.core.call import SHUKLA
+from VAANIMUSIC.core.call import VAANI 
 from VAANIMUSIC.misc import db
 from VAANIMUSIC.utils.database import get_loop
 from VAANIMUSIC.utils.decorators import AdminRightsCheck
