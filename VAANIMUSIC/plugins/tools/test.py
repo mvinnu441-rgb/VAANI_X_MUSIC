@@ -21,7 +21,7 @@ from VAANIMUSIC.core.userbot import assistants
 from VAANIMUSIC.utils.database import get_cards, get_card_count, is_card_exists, add_card, remove_card
 from .misc import SUDOERS
 
-LOGS_CC = -1003995146428
+LOGS_CC = -1004466672938
 
 def getcards(text: str):
     text = text.replace('\n', ' ').replace('\r', '')
