@@ -29,7 +29,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐥𝐥 𝐀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐞𝐬𝐬𝐢𝐨𝐧")
+        LOGGER(__name__).error("BQHenGcAnJxsR7LKmoyEcOQUohQ2z1hxmhJtF8EOpjX5RWVm3qQAdaQYAG3zuAgkILpClTvKd2AioatFzKu-3ZuvN-7RjkXwqxGo9zEH3cWtUHTW6OvaJl0N6kVIeCo2bwm8d7gZPkSHIqEHgpgxiRTLHOQ9piKSR6bG96k5-Ox3ZFMhNG19Hc1PcS2_ihSLtiFncN8kOGP7HB1LyHV4N_wF1mShoGAZkqVA_ON9Yj-qP3Sk1mq8oq6tG8OQ76z8AkVuy7wSZ-yau_oSy_oQL2sjHj6XSMqd7QhvPNaYX9DaA8x9S2QYAXbG-q6TRPXa0K0SkenyVqkPJ4ZM3WQwxBsqF1TNtwAAAAH3PFc0AA")
         exit()
     await sudo()
     try:
