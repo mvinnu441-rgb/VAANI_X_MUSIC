@@ -105,7 +105,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await SHUKLA.speedup_stream(
+        await VAANI.speedup_stream(
             chat_id,
             file_path,
             speed,
