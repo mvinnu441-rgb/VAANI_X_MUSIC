@@ -14,7 +14,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from VAANIMUSIC import app
 from pyrogram import filters
-from VAANIMUSIC.utils.Shukla_ban import admin_filter
+from VAANIMUSIC.utils.Vaani_ban import admin_filter
 
 # ── KripanshEmojis_by_fStikBot pack IDs ──
 _KE_OK    = 6129812419028982717   # ✅
