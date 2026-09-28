@@ -29,9 +29,9 @@ from strings import get_string
 
 
 try:
-    from SHUKLAMUSIC.core.mongo import mongodb as db
+    from VAANIMUSIC.core.mongo import mongodb as db
 except ImportError:
-    from SHUKLAMUSIC.utils.database import mongodb as db
+    from VAANIMUSIC.utils.database import mongodb as db
 
 
 welcome_db = db.welcome_config
