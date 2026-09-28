@@ -31,7 +31,7 @@ from VAANIMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from SHUKLAMUSIC.utils.inline import botplaylist_markup
+from VAANIMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
