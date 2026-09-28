@@ -13,7 +13,7 @@
 from VAANIMUSIC import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from VAANIMUSIC.utils.Shukla_ban import admin_filter
+from VAANIMUSIC.utils.Vaani_ban import admin_filter
 from VAANIMUSIC.mongo.notesdb import *
 from VAANIMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from VAANIMUSIC.utils.shivdb import user_admin
