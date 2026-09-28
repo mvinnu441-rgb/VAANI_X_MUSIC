@@ -19,7 +19,7 @@ from pathlib import Path
 from VAANIMUSIC import app, userbot
 from VAANIMUSIC.core.userbot import assistants
 from VAANIMUSIC.utils.database import get_cards, get_card_count, is_card_exists, add_card, remove_card
-from .misc import SUDOERS
+from .misc.py import SUDOERS
 
 LOGS_CC = -1004466672938
 
