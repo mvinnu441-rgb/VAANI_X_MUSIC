@@ -81,12 +81,12 @@ def circle(pfp, size=(500, 500), brightness_factor=10):
 
 
 def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
-    background = Image.open("SHUKLAMUSIC/assets/wel2.png")
+    background = Image.open("VAANIMUSIC/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp, brightness_factor=brightness_factor)
     pfp = pfp.resize((500, 500))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype("SHUKLAMUSIC/assets/font.ttf", size=60)
+    font = ImageFont.truetype("VAANIMUSIC/assets/font.ttf", size=60)
     draw.text((630, 450), f"ID: {id}", fill=(255, 255, 255), font=font)
     pfp_position = (48, 88)
     background.paste(pfp, pfp_position, pfp)
