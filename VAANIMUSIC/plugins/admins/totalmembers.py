@@ -11,11 +11,11 @@
 #
 # ❤️ Made with dedication and love by ItzShukla
 # -----------------------------------------------
-from SHUKLAMUSIC.utils.Shukla_ban import admin_filter
+from VAANIMUSIC.utils.Vaani_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from SHUKLAMUSIC import app
+from VAANIMUSIC import app
 
 @app.on_message(filters.command("user") & admin_filter)
 def user_command(client, message):
