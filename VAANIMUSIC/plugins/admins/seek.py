@@ -13,7 +13,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from VAANIMUSIC import YouTube, app
-from VAANIMUSIC.core.call import SHUKLA
+from VAANIMUSIC.core.call import VAANI 
 from VAANIMUSIC.misc import db
 from VAANIMUSIC.utils import AdminRightsCheck, seconds_to_min
 from VAANIMUSIC.utils.inline import close_markup
