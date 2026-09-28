@@ -15,7 +15,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from VAANIMUSIC.utils.Shukla_ban import admin_filter
+from VAANIMUSIC.utils.admin_filters import admin_filter
 from VAANIMUSIC import app
 
 # ── KripanshEmojis_by_fStikBot pack IDs ──
