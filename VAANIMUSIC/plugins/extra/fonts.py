@@ -8,7 +8,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ButtonStyle
 
-from VAANIMUSIC.utils.Shukla_font import Fonts
+from VAANIMUSIC.utils.Vaani_font import Fonts
 from VAANIMUSIC import app
 
 
