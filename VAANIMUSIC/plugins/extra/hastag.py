@@ -16,7 +16,7 @@ from VAANIMUSIC import app as VAANI
 from pyrogram import filters
 url = "https://all-hashtag.com/library/contents/ajax_generator.php"
 
-@SHUKLA.on_message(filters.command("hastag"))
+@VAANI.on_message(filters.command("hastag"))
 async def hastag(bot, message):
     global content
     try:
