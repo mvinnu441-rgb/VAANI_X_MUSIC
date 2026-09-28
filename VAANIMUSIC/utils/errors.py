@@ -30,7 +30,7 @@ DEBUG_LOG_FILE = "ignored_errors.log"
 
 async def send_large_error(text: str, caption: str, filename: str):
     try:
-        paste_url = await ANNIEBIN(text)
+        paste_url = await VAANIBIN(text)
         if paste_url:
             await app.send_message(LOGGER_ID, f"{caption}\n\n🔗 Paste: {paste_url}")
             return
