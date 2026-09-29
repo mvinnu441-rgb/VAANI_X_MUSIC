@@ -14,7 +14,6 @@ import os
 import re
 import aiofiles
 import aiohttp
-import get_thumb
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 import asyncio
 import yt_dlp
