@@ -4,7 +4,7 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 import config
 from VAANIMUSIC import Carbon, YouTube, app
-from VAANIMUSIC.core.call import VAANI 
+from  VAANIMUSIC.core.call import VAANI
 from VAANIMUSIC.misc import db
 from VAANIMUSIC.utils.database import add_active_video_chat, is_active_chat
 from VAANIMUSIC.utils.exceptions import AssistantErr
@@ -84,7 +84,7 @@ async def stream(
                 except Exception:
                     raise AssistantErr(_["play_14"])
 
-                await VAANI.join_call(
+                await SHUKLA.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -106,19 +106,17 @@ async def stream(
 
                 button = stream_markup(_, chat_id)
 
-            img = await get_thumb(vidid)
-            run = await app.send_photo(
-                original_chat_id,
-                photo=img,
-                caption=_["stream_1"].format(
-                    f"https://t.me/{app.username}?start=info_{vidid}",
-                    title[:23],
-                    duration_min,
-                    user_name,
-                ),
-                reply_markup=InlineKeyboardMarkup(button),
-            )
-            
+                run = await app.send_message(
+                    original_chat_id,
+                    _["stream_1"].format(
+                        f"https://t.me/{app.username}?start=info_{vidid}",
+                        title[:23],
+                        duration_min,
+                        user_name,
+                    ),
+                    reply_markup=InlineKeyboardMarkup(button),
+                )
+
                 db[chat_id][0]["mystic"] = run
                 db[chat_id][0]["markup"] = "stream"
 
@@ -324,7 +322,7 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
 
-            await VAANI.join_call(
+            await SHUKLA.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
