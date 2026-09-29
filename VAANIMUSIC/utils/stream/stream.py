@@ -123,7 +123,7 @@ async def stream(
         if count == 0:
             return
 
-        link = await SHUKLABin(msg)
+        link = await VAANIBin(msg)
         lines = msg.count("\n")
 
         if lines >= 17:
@@ -182,7 +182,7 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
 
-            await SHUKLA.join_call(
+            await VAANI.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -401,7 +401,7 @@ async def stream(
             if n == 0:
                 raise AssistantErr(_["str_3"])
 
-            await SHUKLA.join_call(
+            await VAANI.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -468,7 +468,7 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
 
-            await SHUKLA.join_call(
+            await VAANI.join_call(
                 chat_id,
                 original_chat_id,
                 link,
