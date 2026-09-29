@@ -40,26 +40,26 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="˹ηєᴛᴡᴏʀᴋ˼",
-                url="https://t.me/ALISA_X_SUPPORT",
+                url="https://t.me/music_X_suppor",
                 style=ButtonStyle.PRIMARY,
             ),
             InlineKeyboardButton(
                 text="˹ϻʏ ʜᴏϻє˼",
-                url="https://t.me/+o4moGHFqCPU4ZTU1",
+                url="https://t.me/jhichichic",
                 style=ButtonStyle.SUCCESS,
             ),
         ],
         [
             InlineKeyboardButton(
                 text="˹ ϻʏ ϻᴧsᴛєʀ ˼ 👑",
-                url="https://t.me/Alexfaizan302",
+                url="https://t.me/Zaviaan_exe",
                 style=ButtonStyle.DANGER,
             ),
         ],
     ]
 
     await msg.reply_photo(
-        photo="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+        photo="https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons),
     )
