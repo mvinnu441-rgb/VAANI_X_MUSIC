@@ -41,7 +41,7 @@ async def auto_leave():
                             if (
                                 chat_id != config.LOGGER_ID
                                 and i.chat.id != -1004413083427
-                                and i.chat.id != -1003995146428
+                                and i.chat.id != -1004466672938
                             ):
                                 if left == 20:
                                     continue
@@ -74,7 +74,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await SHUKLA.stop_stream(chat_id)
+                    await VAANI.stop_stream(chat_id)
                 except:
                     continue
                 try:
