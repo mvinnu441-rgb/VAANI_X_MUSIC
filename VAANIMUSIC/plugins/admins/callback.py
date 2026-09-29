@@ -163,7 +163,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                             _["admin_14"], show_alert=True
                         )
     if command == "Autoplay":
-        from SHUKLAMUSIC.utils.database import get_autoplay_owner, set_autoplay_owner
+        from VAANIMUSIC.utils.database import get_autoplay_owner, set_autoplay_owner
         state = await get_autoplay(chat_id)
         new_state = not state
         await set_autoplay(chat_id, new_state)
@@ -221,7 +221,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                         reply_markup=close_markup(_),
                     )
                     try:
-                        return await SHUKLA.stop_stream(chat_id)
+                        return await VAANI.stop_stream(chat_id)
                     except:
                         return
             except:
@@ -235,7 +235,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                         ),
                         reply_markup=close_markup(_),
                     )
-                    return await SHUKLA.stop_stream(chat_id)
+                    return await VAANI.stop_stream(chat_id)
                 except:
                     return
         else:
