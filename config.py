@@ -87,7 +87,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 DEBUG_IGNORE_LOG = getenv("DEBUG_IGNORE_LOG", "False").lower() == "true"
 
 # Additional group/channel IDs
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", getenv("LOGGER_ID", "")))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", getenv("LOGGER_ID", "0")))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", SUPPORT_CHAT)
 
 # Image URLs
