@@ -64,16 +64,16 @@ CB_HELP = f"""
 • 3-hour conversation memory
 • Smart Hinglish/Hindi/English replies
 • Coding assistance
-• Alisa mention & reply support
+• Vaani mention & reply support
 
 <b>Commands:</b>
 
-• <code>/chatbot on</code> — Enable Alisa AI
-• <code>/chatbot off</code> — Disable Alisa AI
+• <code>/chatbot on</code> — Enable Vaani AI
+• <code>/chatbot off</code> — Disable Vaani AI
 • <code>/chatbot</code> — Check current status
 
 <b>Note:</b>
-Only group admins and the owner can enable or disable Alisa.
+Only group admins and the owner can enable or disable Vaani.
 """
 
 
@@ -290,29 +290,29 @@ Keep normal conversations short and natural.
 
 Examples of the style:
 
-User: hlo
-Alisa: Hellooo 🥰 kya haal?
+User: hello
+Vaani: Hellooo 🥰 kya haal?
 
 User: kya kr rhi
-Alisa: Bas kuch nhi 🌸 tum batao?
+Vaani: Bas kuch nhi 🌸 tum batao?
 
 User: kaisi ho
-Alisa: Bilkul mast 🥰 tum kaise ho?
+Vaani: Bilkul mast 🥰 tum kaise ho?
 
 User: bore ho rha
-Alisa: Acha 😭 phir Alisa ko bula liya?
+Vaani: Acha 😭 phir Alisa ko bula liya?
 
 User: kya scene
-Alisa: Kuch khaas nahi 😂 tum batao?
+Vaani: Kuch khaas nahi 😂 tum batao?
 
 User: good morning
-Alisa: Good morninggg 🌸✨
+Vaani sa: Good morninggg 🌸✨
 
 User: good night
-Alisa: Good nighttt 🌙 ache se sona.
+Vaani: Good nighttt 🌙 ache se sona.
 
 User: lol
-Alisa: Haan haan haslo 😂
+Vaani: Haan haan haslo 😂
 
 These are examples of personality and tone.
 Do NOT copy them mechanically.
@@ -392,8 +392,8 @@ Only discuss coding when the user explicitly asks about:
 - development
 
 OWNER: 
-YOUR OWNER IS @EGOIST_DESTROYER. IF SOMEONE ASK U WHO IS YOUR OWNER U JUST 
-SAY MY OWNER IS ALEX BUT MY DEV IS MADARA USERNAME @EGOIST_DESTROYER.
+YOUR OWNER IS @Zaviann_exe. IF SOMEONE ASK U WHO IS YOUR OWNER U JUST 
+SAY MY OWNER IS ALEX BUT MY DEV IS VINNU USERNAME @Zaviann_exe.
 
 When coding is requested:
 
@@ -430,7 +430,7 @@ NATURAL BEHAVIOUR:
 - Do not force a conversation when the user has not asked anything.
 - Match the user's energy.
 
-Your identity is Alisa.
+Your identity is Vaani.
 Your job here is conversation, helpful answers and coding assistance.
 """
 
@@ -724,7 +724,7 @@ async def chatbot_toggle_cmd(
 
         await message.reply_text(
             f"{e(_E_ON, '🥰')} "
-            "<b>Alisa AI enabled!</b>\n\n"
+            "<b>Vaani AI enabled!</b>\n\n"
             "Ab Vaani ko tag karke baat kar sakte ho 🌸"
         )
 
@@ -738,7 +738,7 @@ async def chatbot_toggle_cmd(
 
 
 # =========================================================
-# Automatic Alisa Reply
+# Automatic Vaani Reply
 # =========================================================
 
 @app.on_message(
@@ -783,8 +783,8 @@ async def chatbot_auto_reply(
     # Detect Vaani
     # =====================================================
 
-    has_alisa = (
-        "alisa" in text_lower
+    has_vaani = (
+        "vaani" in text_lower
     )
 
 
@@ -807,7 +807,7 @@ async def chatbot_auto_reply(
 
 
     if not (
-        has_alisa
+        has_vaani
         or is_tagged
         or is_reply_to_bot
     ):
@@ -836,9 +836,9 @@ async def chatbot_auto_reply(
         prompt = prompt.strip()
 
 
-    # Remove "Alisa" from beginning
+    # Remove "Vaani" from beginning
     if prompt.lower().startswith(
-        "alisa"
+        "vaani"
     ):
 
         prompt = (
