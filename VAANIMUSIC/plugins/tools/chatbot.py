@@ -495,7 +495,7 @@ Your job here is conversation, helpful answers and coding assistance.
 
             await message.reply_text(
                 "Hmm 😭 Vaani thoda confuse ho gayi."
-            )await 
+            )
             return
 
 
